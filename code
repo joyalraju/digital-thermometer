@@ -9,7 +9,7 @@ sbit en = P3^2;  //enable pin
 void lcdcmd (unsigned char value); 
 void lcddata (unsigned char *value); 
 void lcddata1 (unsigned char value); 
-void delay(unsigned int msec )  // The delay function provides delay in msec. 
+void delay(unsigned int msec )  // The delay function provides delay in msec..
 {  
 int i,j ;  
 for(i=0;i<msec;i++)   
