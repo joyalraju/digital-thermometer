@@ -13,7 +13,7 @@ void delay(unsigned int msec )  // The delay function provides delay in msec..
 {  
 int i,j ;  
 for(i=0;i<msec;i++)   
-for(j=0; j<1300; j++);
+for(j=0; j<1300; j++)
 } 
 void main()
 {    
