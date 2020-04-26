@@ -76,7 +76,7 @@ delay (50);
  c=temp/100; 
  lcddata1(c); 
  delay (1); 
- a=(temp/10)-(c*10); 
+ a=(temp/10)-(c*10); //converting to degree celcius.
  lcddata1(a); 
  delay (1);
  b=temp%10; 
