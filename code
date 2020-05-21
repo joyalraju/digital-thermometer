@@ -92,7 +92,7 @@ delay (50);
  rs=0; 
  rw=0; 
  en=1; 
- delay (1);
+ delay (.100);
  en=0;
  return; 
  } 
